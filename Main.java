@@ -11,6 +11,11 @@ public class Main {
 
         while (true) {
             try {
+                // bisa langsung menggunakan 1 system.out.println. misal: System.out.println('
+                // 1. tambah data guru. \n
+                // 2. tambah data siswa ...
+                // ')
+                
                 System.out.println("\n=== MENU ===");
                 System.out.println("1. Tambah Data Guru");
                 System.out.println("2. Tambah Data Siswa");
