@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Teacher extends Person {
     private String subject;
-
+     // Melanggar Konsep Clean Code SRP (Single Responsibility), karena class Teacher menangani input, seharusnya hanya attribute dan method
     public Teacher() {
         super();
         Scanner scanner = new Scanner(System.in);
