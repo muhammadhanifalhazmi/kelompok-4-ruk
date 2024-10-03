@@ -5,6 +5,7 @@ class Student extends Person {
 
     public Student() {
         super();
+        // Melanggar Konsep Clean Code SRP (Single Responsibility), karena class Student menangani input, seharusnya hanya attribute dan method
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan jurusan: ");
         this.major = scanner.nextLine();
